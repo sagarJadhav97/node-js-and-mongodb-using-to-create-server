@@ -1,0 +1,31 @@
+{
+  "name": "docsyspackage",
+  "version": "1.0.0",
+  "description": "this package create doctor system",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon servercon.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docsys"
+  ],
+  "author": "sagar jadhav",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "fast-two-sms": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.4",
+    "node-base64-image": "^2.0.4",
+    "nodemon": "^2.0.15",
+    "otp-generator": "^4.0.0",
+    "unirest": "^0.6.0"
+  }
+}
